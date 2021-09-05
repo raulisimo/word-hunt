@@ -2,8 +2,6 @@ import React from 'react'
 import './definitions.css'
 
 function Definitions({ word, language, meanings, lightMode }) {
-	console.log(meanings)
-
 	const capitalize = (s) => s && s[0].toUpperCase() + s.slice(1)
 	return (
 		<div className="meanings">

@@ -23,6 +23,7 @@ function App() {
 
 	useEffect(() => {
 		dictionaryAPI()
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [word, language])
 
 	return (

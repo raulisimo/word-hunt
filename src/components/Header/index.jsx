@@ -26,11 +26,12 @@ const Header = ({
 		},
 	})
 
-	const handleChange = (e) => {
-		setLanguage(e.target.value)
-		setWord('')
-		setMeanings([])
-	}
+	// to clear the word if you change the language
+	// const handleChange = (e) => {
+	// 	setLanguage(e.target.value)
+	// 	setWord('')
+	// 	setMeanings([])
+	// }
 
 	return (
 		<div className="header">
